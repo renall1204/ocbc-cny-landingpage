@@ -330,14 +330,48 @@
 }
 
 .card-carousel {
-    background-image: url('assets/carousel/biz.png'); /* Set the background image */
-    background-size: cover; /* Cover the entire element with the background image */
-    background-position: center; /* Center the background image */ 
     width: 300px; 
     height: 400px;
     border-radius: 5%; 
     margin-top: 5rem;
-  }
+    position: relative; /* Added to position the images */
+}
+
+.card-carousel.card1 {
+    background-image: url('assets/carousel/biz.png'); /* Set the background image */
+}
+
+.card-carousel.card2 {
+    background-image: url('assets/carousel/biz2.jpg'); /* Set the background image */
+}
+
+.card-carousel.card3 {
+    background-image: url('assets/carousel/biz3.jpeg'); /* Set the background image */
+}
+
+.card-carousel.card4 {
+    background-image: url('assets/carousel/biz4.jpg'); /* Set the background image */
+}
+
+.card-carousel.card5 {
+    background-image: url('assets/carousel/biz5.jpg'); /* Set the background image */
+}
+
+.card-carousel .card {
+    position: absolute; /* Added to position the images */
+    top: 0; /* Added to position the images */
+    left: 0; /* Added to position the images */
+    width: 100%; /* Added to make the images cover the entire card */
+    height: 100%; /* Added to make the images cover the entire card */
+    border-radius: inherit; /* Inherit border-radius from parent */
+    overflow: hidden; /* Added to hide overflowing images */
+}
+
+.card-carousel .card img {
+    width: 100%; /* Added to make the images cover the entire card */
+    height: 100%; /* Added to make the images cover the entire card */
+    object-fit: cover; /* Added to make sure the images cover the entire card */
+}
 
 nav ul {
     padding:0;
@@ -664,8 +698,8 @@ nav ul li a {
         background-image: url('assets/carousel/biz.png'); /* Set the background image */
         background-size: cover; /* Cover the entire element with the background image */
         background-position: center; /* Center the background image */
-        width: 175px; 
-        height: 200px;
+        width: 160px; 
+        height: 250px;
         border-radius: 5%; 
         margin-top: 5rem;
     }
