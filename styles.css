@@ -330,7 +330,9 @@
 }
 
 .card-carousel {
-    background-color: #f0f0f0; 
+    background-image: url('assets/carousel/biz.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */ 
     width: 300px; 
     height: 400px;
     border-radius: 5%; 
@@ -659,7 +661,9 @@ nav ul li a {
     }
 
     .card-carousel {
-        background-color: #f0f0f0; 
+        background-image: url('assets/carousel/biz.png'); /* Set the background image */
+        background-size: cover; /* Cover the entire element with the background image */
+        background-position: center; /* Center the background image */
         width: 175px; 
         height: 200px;
         border-radius: 5%; 
@@ -748,7 +752,9 @@ nav ul li a {
     }
 
     .card-carousel {
-        background-color: #f0f0f0; 
+        background-image: url('assets/carousel/biz.png'); /* Set the background image */
+        background-size: cover; /* Cover the entire element with the background image */
+        background-position: center; /* Center the background image */
         width: 200px; 
         height: 250px;
         border-radius: 5%; 
@@ -1068,7 +1074,9 @@ nav ul li a {
     }
 
     .card-carousel {
-        background-color: #f0f0f0; 
+        background-image: url('assets/carousel/biz.png'); /* Set the background image */
+        background-size: cover; /* Cover the entire element with the background image */
+        background-position: center; /* Center the background image */
         width: 175px; 
         height: 200px;
         border-radius: 5%; 
